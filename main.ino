@@ -29,7 +29,7 @@ Precida adicionar:
 
 MPU6050 mpu6050(Wire);
 
-static float g;//Armazena a gravidade
+static float g; // Armazena a gravidade
 
 //Retorna o sinal
 //Não era para precisar disso, mas o calculo da componente gravitacional no eixo z não retorna sinal, então precisa dissol.
