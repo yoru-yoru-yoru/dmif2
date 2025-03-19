@@ -14,7 +14,7 @@ Explicações geais:
   A convenção nos arrays é 0 para x, 1 para y e 2 para z.
 
 Precida adicionar:
-  A interface para colocar a massa
+  A interface para colocar a massa [teste]
   Implementar a integração para obter a gravidade
 
 */
@@ -29,7 +29,7 @@ Precida adicionar:
 
 MPU6050 mpu6050(Wire);
 
-static float g;//Armazena a gravidade
+static float g; // Armazena a gravidade
 
 //Retorna o sinal
 //Não era para precisar disso, mas o calculo da componente gravitacional no eixo z não retorna sinal, então precisa dissol.
