@@ -6,7 +6,7 @@ Explicações geais:
   e iniciar as variáveis no loop() com um valor inicial sem ter que setar elas no setup().
 
   O filtro de média variável atenua variações pontuais no sinal, fazendo-o tender à constância. Como a gravidade é constante, a ideia é
-  que, descontando o valor filtrado do valor bruto, na prática, acabe descontando a gravidade que tenha escapado da correção prelimi nar.
+  que, descontando o valor filtrado do valor bruto, na prática, acabe descontando a gravidade que tenha escapado da correção preliminar.
 
   O filtro de média variável dependeria de um laço for, mas isso obrigaria a ler os n valores para depois fazer algo, o que causaria atraso.
   Então preferi usar o próprio laço do void loop() para poder ler e executar o resto ao mesmo tempo. Por isso é necessário counter; já que não tem o contador do for.
